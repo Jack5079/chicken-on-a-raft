@@ -1,0 +1,15 @@
+{
+  "name": "chicken-on-a-raft",
+  "version": "1.0.0",
+  "description": "ay oh chicken on a raft",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jack5079",
+  "license": "ISC",
+  "dependencies": {
+    "console-png": "^1.2.1",
+    "play-sound": "^1.1.3"
+  }
+}
