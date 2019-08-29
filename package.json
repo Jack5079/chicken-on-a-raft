@@ -15,7 +15,5 @@
   "devDependencies": {
     "standard": "^14.1.0"
   },
-  "bin": {
-    "chicken-on-a-raft": "./index.js"
-  }
+  "bin": "./index.js"
 }
