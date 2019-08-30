@@ -18,5 +18,5 @@ You will need one of the following players
 ### Actually using it
 
 ```bash
-npx https://github.com/Jack5079/chicken-on-a-raft
+npx Jack5079/chicken-on-a-raft
 ```
