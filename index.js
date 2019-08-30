@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 require('console-png').attachTo(console)
-console.png(require('fs').readFileSync('./chicken.png'))
+const { join } = require('path')
+console.png(require('fs').readFileSync(join(__dirname, '/chicken.png')))
 var time = 0
 var player = require('play-sound')({})
 
