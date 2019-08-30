@@ -66,6 +66,6 @@ function timer () {
   console.log(`You have been on a raft with a chicken for ${out}.`)
 }
 setInterval(timer, 1000)
-player.play('sound.mp3', function (err) {
+player.play((join(__dirname, '/sound.mp3'), function (err) {
   if (err) throw err
 })
