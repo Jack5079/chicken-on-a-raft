@@ -1,4 +1,4 @@
-#!/usr/bin / env node
+#!/usr/bin/env node
 require('console-png').attachTo(console)
 console.png(require('fs').readFileSync('./chicken.png'))
 var time = 0
