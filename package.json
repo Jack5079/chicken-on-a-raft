@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "standard",
-    "build": "npx pkg . --targets latest-win-x64"
+    "build": "npx pkg . --targets latest-win-x64,latest-macos-x64,latest-linux-x64"
   },
   "author": "Jack5079",
   "license": "ISC",
