@@ -15,5 +15,8 @@
   "devDependencies": {
     "standard": "^14.1.0"
   },
-  "bin": "./index.js"
+  "bin": "./index.js",
+  "pkg": {
+    "assets": "assets/**/*"
+  }
 }

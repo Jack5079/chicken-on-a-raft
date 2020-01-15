@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 require('console-png').attachTo(console)
 const { join } = require('path')
-console.png(require('fs').readFileSync(join(__dirname, '/chicken.png')))
+console.png(require('fs').readFileSync(join(__dirname, '/assets/chicken.png')))
 var time = 0
 const { play } = require('sound-play')
 
@@ -14,4 +14,4 @@ function timer () {
   console.log(`You have been on a raft with a chicken for ${out[0].value}${out[1].value}.`)
 }
 setInterval(timer, 1000)
-play(join(__dirname, '/sound.mp3'))
+play(join(__dirname, '/assets/sound.mp3'))
