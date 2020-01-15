@@ -4,7 +4,8 @@
   "description": "ay oh chicken on a raft",
   "main": "index.js",
   "scripts": {
-    "test": "standard"
+    "test": "standard",
+    "build": "npx pkg . --targets latest-win-x64"
   },
   "author": "Jack5079",
   "license": "ISC",
